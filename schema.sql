@@ -47,3 +47,4 @@ CREATE TABLE visits(
 );
 
 CREATE INDEX idx_animal_id ON visits (animal_id);
+CREATE INDEX idx_visits_vet_id ON visits (vet_id);
